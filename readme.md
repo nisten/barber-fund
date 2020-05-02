@@ -71,7 +71,7 @@ module.exports = {
   siteTitle: `Barber Fund`,
   siteTitleShort: `barberfund`,
   siteDescription: `Pay it forward for your barber.`,
-  siteUrl: `https://barber.shop`,
+  siteUrl: `https://master.d10jrcldxj69js.amplifyapp.com/`,
   themeColor: `#000`,
   backgroundColor: `#fff`,
   pathPrefix: null,
