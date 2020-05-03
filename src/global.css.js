@@ -26,17 +26,13 @@ export default createGlobalStyle`
   /* HTML5 display-role reset for older browsers */
   article, aside, details, figcaption, figure,
   footer, header, hgroup, menu, nav, section {
-    display: block;
-  }
-
-  html {
-    font-size: 62.5%;
+    display: flex;
   }
 
   body {
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-    line-height: 1;
-    font-size: 1.6rem;
+    line-height: 2;
+    font-size: 4.6rem;
     color: #000;
     background-color: #fff;
     -webkit-text-size-adjust: 100%;
@@ -72,7 +68,7 @@ export default createGlobalStyle`
   }
 
   pre {
-    display: block;
+    display: flex;
     padding: 2rem;
     margin-top: 4rem;
     overflow: auto;

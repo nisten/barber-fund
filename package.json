@@ -19,9 +19,11 @@
     ]
   },
   "dependencies": {
+    "@aws-amplify/ui-react": "^0.2.5",
     "@reach/dialog": "^0.2.0",
     "@reach/router": "^1.2.1",
     "@reach/visually-hidden": "^0.1.1",
+    "aws-amplify": "^3.0.10",
     "babel-plugin-styled-components": "^1.10.0",
     "gatsby": "^2.3.26",
     "gatsby-image": "^2.0.39",
@@ -39,7 +41,9 @@
     "intersection-observer": "^0.5.1",
     "prop-types": "^15.6.2",
     "react": "^16.8.6",
+    "react-bootstrap": "^1.0.1",
     "react-dom": "^16.8.6",
+    "react-google-autocomplete": "^1.2.4",
     "react-helmet": "^5.2.0",
     "react-pose": "^4.0.5",
     "styled-components": "^4.1.3"

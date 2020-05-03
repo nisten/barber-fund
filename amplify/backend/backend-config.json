@@ -1,0 +1,9 @@
+{
+	"auth": {
+		"barberfundbf506ba4": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": []
+		}
+	}
+}

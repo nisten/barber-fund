@@ -1,0 +1,17 @@
+{
+    "projectName": "barber-fund",
+    "version": "3.0",
+    "frontend": "javascript",
+    "javascript": {
+        "framework": "react",
+        "config": {
+            "SourceDir": "/",
+            "DistributionDir": "public",
+            "BuildCommand": "gatsby build",
+            "StartCommand": "gatsby develop"
+        }
+    },
+    "providers": [
+        "awscloudformation"
+    ]
+}
