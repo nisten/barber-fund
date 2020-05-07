@@ -3,7 +3,7 @@ import {Row, Col, Image } from 'react-bootstrap'
 
 export default function Home() {
   return (
-    <Row fluid>
+    <Row>
       
         <Image src='/barberfund.png' style={{ width: '20%' }} fluid></Image>
       
