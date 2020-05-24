@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start"
   },
   "dependencies": {
@@ -19,6 +19,8 @@
     "react-hook-form": "^5.6.2"
   },
   "devDependencies": {
-    "prettier": "^2.0.5"
+    "@types/node": "^14.0.5",
+    "prettier": "^2.0.5",
+    "typescript": "^3.9.3"
   }
 }

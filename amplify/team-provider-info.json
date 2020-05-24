@@ -1,0 +1,15 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-barberfund-dev-180941-authRole",
+            "UnauthRoleArn": "arn:aws:iam::612177115370:role/amplify-barberfund-dev-180941-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::612177115370:role/amplify-barberfund-dev-180941-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "amplify-barberfund-dev-180941-deployment",
+            "UnauthRoleName": "amplify-barberfund-dev-180941-unauthRole",
+            "StackName": "amplify-barberfund-dev-180941",
+            "StackId": "arn:aws:cloudformation:us-west-2:612177115370:stack/amplify-barberfund-dev-180941/45c9bfa0-9e0b-11ea-8b53-0a5b0a1353b8",
+            "AmplifyAppId": "d3t3crc7qg95xl"
+        }
+    }
+}
