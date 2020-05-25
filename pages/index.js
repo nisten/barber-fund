@@ -1,6 +1,7 @@
 import React from 'react';
-import { Row, Col, Image } from 'react-bootstrap';
-import Head from 'next/head';
+import { Row, Col, Image } from 'react-bootstrap'
+import Head from 'next/head'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -10,8 +11,6 @@ export default function Home() {
         <title>barberfund</title>
         <link rel="icon" href="/favicon.ico" />
         <meta property="og:title" content="barberfund" key="title"/>
-        {/* <meta charSet="utf-8" /> */}
-        <meta name="description" content="A hackathon app to help you pay it forward to your local barbershop" />
       </Head>
 
       <Image
@@ -22,6 +21,11 @@ export default function Home() {
       ></Image>
 
       <h3>Welcome to the barberfund</h3>
+      <li>
+        <Link href="/about">
+          <a>Suuuup</a>
+        </Link>
+      </li>
     </Row>
   );
 }
