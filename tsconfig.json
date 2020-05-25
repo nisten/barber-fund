@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "es6",
     "lib": [
       "dom",
       "dom.iterable",
@@ -16,10 +16,12 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "preserve"
+    "sourceMap": false,
+    "jsx": "react"
   },
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "out"
   ],
   "include": [
     "next-env.d.ts",
